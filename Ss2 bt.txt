@@ -1,0 +1,12 @@
+Ngôn ngữ C không hỗ trợ kiểu dữ liệu bool mà dùng integer để biểu diễn true/false 
+(0 là true, khác 0 là false
+ Từ phiên bản C99 for standard mới bắt đầu hỗ trợ kiểu bool
+
+
+
+Toán tử 3 ngôi ở trong C là mệnh đề if else. Ví dụ nếu như điều kiện ở bieu_thuc_1 đúng thì bieu_thuc_2 trở thành giá trị của toàn bộ biểu thức. Ngược lại nếu như điều kiện ở bieu_thuc_1 sai thì bieu_thuc_3 trở thành giá trị của toàn bộ biểu thức
+
+
+
+
+Để cấp phát vùng nhớ động cho biến con trỏ trong ngôn ngữ C, bạn có thể sử dụng hàm malloc () hoặc hàm calloc (). Sử dụng hàm free () để giải phóng bộ nhớ đã cấp phát khi không cần sử dụng, sử dụng realloc () để thay đổi (phân bổ lại) kích thước bộ nhớ đã cấp phát trong khi chạy chương trình.
